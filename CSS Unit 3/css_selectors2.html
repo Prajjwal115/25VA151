@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>CSS Selectors</title>
+    <style>
+
+
+div p {
+    color: blue;
+    font-size: 50px;
+}
+
+a{
+    margin: 40%;
+    font-size: 30px;
+}
+
+.box > p {
+    background-color: violet
+    ;}
+
+  
+    div ~ p {
+        border: 5px solid black;
+    }
+
+    
+
+    a:hover {
+        color: red;
+        font-size: 20px;
+    }
+
+    a:active {
+        color: green;
+        font-size: 25px;
+    }
+a:link {
+    text-decoration: underline; font-size: larger;
+}
+
+ul{
+    list-style: none; display: flex;
+}
+
+ul li {
+
+    margin: 20px; border-right: 1px solid blueviolet;
+    padding-right: 20px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic similique ipsa impedit corrupti omnis quo quod. Sit placeat praesentium eligendi nobis maiores quod minus! Animi iste nam quisquam quas quam.
+        </p>
+ </div>
+
+ <div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aspernatur. Omnis rerum, culpa vero deserunt consectetur facilis exercitationem natus dignissimos provident consequuntur dolore, porro, quam quae? Repellat tenetur dolores repellendus.
+  </p>  
+ </div>
+
+<p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel magni ea, commodi praesentium, numquam doloribus quidem aperiam accusamus perferendis excepturi ut placeat! Et modi ad quam dolor vel accusamus at.
+  </p>
+
+  <a href="https://www.w3schools.com/css/css_combinators.asp">Visit The bloody site!</a>
+
+  <ul type="none">
+
+    <li>home</li>
+    <li>services</li>
+    <li>about</li>
+    <li>gallery</li>
+    <li style="border: 0;">contractor</li>
+  </ul>
+
+
+</body>
+</html>
