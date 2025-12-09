@@ -1,0 +1,35 @@
+Style.css 
+ 
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #f5f5f5; 
+    margin: 0; 
+    padding: 40px 0; 
+    text-align: center; 
+} 
+ 
+.exp-title { 
+    margin-bottom: 30px; 
+} 
+ 
+.card-container { 
+    display: flex;                
+    flex-direction: row;          
+    justify-content: center;     
+    align-items: center;        
+    gap: 30px;                   
+    flex-wrap: wrap;               
+    padding: 20px; 
+} 
+ 
+.profile-card { 
+    background-color: #ffffff; 
+    width: 260px; 
+    padding: 25px 20px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+} 
+ 
+.avatar { 
+    width: 70px; 
+    height: 70px;}
